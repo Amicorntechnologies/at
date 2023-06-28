@@ -1,0 +1,111 @@
+
+  .btn-login {
+    display: inline-block;
+    padding: 1px 3px;
+    background-color: #f44336;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 100px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-login:hover {
+    background-color: #f44336;
+  }
+  
+
+
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Global styles */
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-left: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .logo-image {
+    width: 80px; /* Adjust the width as needed */
+  }
+  
+  .hero {
+    background-image: url('assets/yg.bg.jpg');
+    background-size: cover;
+    text-align: center;
+    padding: 300px;
+    color: #fff;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #f44336;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 100px;
+  }
+  
+  .streaming,
+  .blogs {
+    padding: 50px;
+  }
+  
+  .about {
+    padding: 50px;
+    text-align: center; /* Center align the content */
+  }
+  
+  .about h2 {
+    margin-bottom: 20px; /* Add some spacing below the heading */
+  }
+  
+  .about-content {
+    display: flex;
+    flex-direction: column; /* Align the content vertically */
+    align-items: center;
+    justify-content: center;
+  }
+  
+ 
+  
+  .about-text {
+    padding: 0 40px;
+  }
+  
+
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
